@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'], // Add Inter font to the sans-serif family
+        ibm: ['IBM Plex Sans', 'sans-serif'],
       },
     },
   },
