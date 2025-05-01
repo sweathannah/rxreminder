@@ -21,7 +21,7 @@ const Header = () => {
                 </a>
             </ul>
         </nav>
-        <a href="#"
+        <a href="#life"
             className="bg-[#015777] rounded-full px-[1.875rem] py-[0.94rem] text-white font-medium text-[1rem] transition-all duration-300 transform hover:scale-105 hover:bg-[#01769c]"
             >
             Join Waitlist

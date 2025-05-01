@@ -10,7 +10,7 @@ function Home() {
     <section>
         <Header/>
         <main className='font-inter'>
-            <section className="lg:bg-[url('/images/header-bg.png')] bg-[url('/images/mobile-bg.png')] bg-no-repeat bg-cover bg-center w-full lg:h-[80vh] h-[60vh] flex items-center">
+            <section className="lg:bg-[url('/images/header-bg.png')] bg-[url('/images/mobile-bg.png')] bg-no-repeat bg-cover bg-center w-full lg:h-screen h-[60vh] flex items-center" id='home'>
                 <article className='flex flex-col items-start lg:px-[6.25rem] px-[1.06rem] lg:w-[60rem] w-[25rem]' >
                     <div className='flex flex-row items-center gap-2 bg-[#6FBE801F] text-[#6FBE80] py-[0.3rem] lg:px-[1.43rem] px-[0.8rem] rounded-full mb-[0.875rem]'>
                         <img src="./images/stethoscope.svg" alt="Stethoscope Icon" />
@@ -86,7 +86,7 @@ function Home() {
                             Set your medication history, stay consistent and celebrate your health milestones.
                         </p>
                     </div>
-                    <div className='bg-[#FFFFFF] rounded-3xl lg:px-[6rem] px-[1.5rem] lg:py-[3rem] py-[2rem] items-start max-w-[37.25rem]'>
+                    <div className="lg:px-[6rem] px-[1.5rem] lg:py-[3rem] py-[2rem] items-center max-w-[37.25rem] lg:bg-[url('/images/happy.png')] bg-[url('/images/happy.png')] bg-no-repeat bg-cover bg-center rounded-3xl text-[#FFFFFF] ">
                         <p className='text-center text-[1.5rem] font-[600]'>
                             RxReminder works quietly in the background, so you can live your life, not worry about it.
                         </p>
@@ -158,7 +158,7 @@ function Home() {
             {/* FAQ */}
             <FAQSection/>
             {/* your life */}
-            <section className='bg-[#F7F8FA] lg:px-[6.25rem] px-[1.06rem] lg:py-[4rem] py-[2.9rem] ] flex flex-col'>
+            <section className='bg-[#F7F8FA] lg:px-[6.25rem] px-[1.06rem] lg:py-[4rem] py-[2.9rem] ] flex flex-col' id='life'>
                 <article className="lg:bg-[url('/images/blue-bg.png')] bg-[url('/images/mobile-blue.png')] bg-no-repeat bg-cover bg-center w-full h-full flex items-center rounded-[1.875rem] py-[5rem]">
                     <div className='w-[24rem] flex flex-col justify-center m-auto items-center text-center'>
                         <h2 className='font-[500] text-[#FFFFFF] text-[2rem] font-ibm'>

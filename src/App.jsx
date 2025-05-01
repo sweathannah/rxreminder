@@ -1,14 +1,14 @@
 import { Outlet } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
+import { Toaster } from 'react-hot-toast';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <>
+      <Toaster position="top-right" reverseOrder={false} />
       <main>
         <Outlet />
       </main>
-      <ToastContainer position="top-right" autoClose={3000} />
     </>
   );
 }
