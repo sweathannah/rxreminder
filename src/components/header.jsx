@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className='lg:py-[1.25rem] py-[0.8rem] lg:px-[6.25rem] px-[1.06rem] flex flex-row items-center justify-between font-inter'>
-        <img src="images/logo.svg" alt="Rxreminder logo" />
+        <img src="images/logo.svg" alt="Rxreminder logo" className=' lg:w-fit w-[9rem]'/>
         <nav className='lg:flex hidden'>
             <ul className='text-[#6D7470] font-[500] text-[1rem] flex flex-row gap-4'>
                 <a href="#">
@@ -22,7 +22,7 @@ const Header = () => {
             </ul>
         </nav>
         <a href="#life"
-            className="bg-[#015777] rounded-full px-[1.875rem] py-[0.94rem] text-white font-medium text-[1rem] transition-all duration-300 transform hover:scale-105 hover:bg-[#01769c]"
+            className="bg-[#015777] rounded-full px-[1rem] py-[0.94rem] text-white font-medium text-[0.6rem] transition-all duration-300 transform hover:scale-105 hover:bg-[#01769c] text-center"
             >
             Join Waitlist
         </a>
